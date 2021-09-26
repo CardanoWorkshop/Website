@@ -32,7 +32,7 @@ const NavLinks = () => {
           </Link>
         </li>
         <li>
-          <a href="https://cardano.org/" target="_blank">
+          <a href="https://cardano.org/" target="_blank" rel="noreferrer">
             <Button variant="contained">Cardano.org</Button>
           </a>
         </li>
