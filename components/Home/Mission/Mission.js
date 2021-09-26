@@ -69,7 +69,7 @@ const Wrapper = styled.div`
     align-self: center;
 
     @media only screen and (max-width: 610px) {
-      margin-bottom: 50px;
+      margin-bottom: 20px;
     }
   }
 `;

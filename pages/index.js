@@ -12,7 +12,7 @@ const index = () => {
     <Fragment>
       <Head>
         <title>Cardano Workshop | Home</title>
-        <link rel="icon" href="./transparent-logo.png" />
+        <link rel="icon" href="./logo/transparent-logo.png" />
       </Head>
       <Home />
     </Fragment>

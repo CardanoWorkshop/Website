@@ -13,7 +13,7 @@ const NavLogo = () => {
 
   return (
     <Wrapper onClick={wrapperHandler}>
-      <img src="./transparent-logo.png" alt="logo" />
+      <img src="./logo/transparent-logo.png" alt="logo" />
       <p>Cardano Workshop</p>
     </Wrapper>
   );
