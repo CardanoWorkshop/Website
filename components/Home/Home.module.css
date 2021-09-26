@@ -1,0 +1,8 @@
+.scrollbar-on {
+  overflow: hidden;
+  padding-right: 17px;
+}
+
+.scrollbar-off {
+  overflow: hidden;
+}
