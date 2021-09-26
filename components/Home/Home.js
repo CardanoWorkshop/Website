@@ -4,6 +4,7 @@ import styled from "styled-components";
 // Components
 import Nav from "./Nav/Nav";
 import Carousel from "./Carousel/Carousel";
+import Projects from "./Projects/Projects";
 import Mission from "./Mission/Mission";
 import Footer from "./Footer/Footer";
 
@@ -14,6 +15,8 @@ const Home = () => {
     <Wrapper>
       <Nav />
       <Carousel />
+      <SectionBreak />
+      <Projects />
       <SectionBreak />
       <Mission />
       <SectionBreak />
