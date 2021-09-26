@@ -1,3 +1,4 @@
+// Styled Components
 import styled from "styled-components";
 
 const SectionBreak = () => {
@@ -15,5 +16,6 @@ const Wrapper = styled.div`
     width: 95%;
   }
   //
+
   margin: 50px auto;
 `;
