@@ -63,8 +63,8 @@ const Wrapper = styled.div`
     align-items: center;
 
     //
-    width: 1000px;
-    @media only screen and (max-width: 1000px) {
+    width: 750px;
+    @media only screen and (max-width: 750px) {
       width: 100%;
     }
     //
