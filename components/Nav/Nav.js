@@ -1,5 +1,5 @@
 // React
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 // Styled Components
 import styled from "styled-components";
@@ -7,9 +7,6 @@ import styled from "styled-components";
 // Material UI
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
-
-// CSS
-import styles from "../Home.module.css"
 
 // Framer Motion
 import { AnimatePresence } from "framer-motion";
@@ -22,18 +19,26 @@ import NavMobileMenu from "./NavMobileMenu/NavMobileMenu";
 const Nav = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
 
+  useEffect(() => {
+    return () => {
+      // Removing scrollbar classes so user can scroll after they navigate to another page
+      document.body.classList.remove("scrollbar-off");
+      document.body.classList.remove("scrollbar-on");
+    };
+  }, []);
+
   const mobileMenuHandler = () => {
     setMobileMenu((prev) => !prev);
 
     if (
       window.innerWidth > document.body.clientWidth ||
-      document.body.classList.contains(styles["scrollbar-on"])
+      document.body.classList.contains("scrollbar-on")
     ) {
       // User has scrollbar
-      document.body.classList.toggle(styles["scrollbar-on"]);
+      document.body.classList.toggle("scrollbar-on");
     } else {
       // User has no scrollbar
-      document.body.classList.toggle(styles["scrollbar-off"]);
+      document.body.classList.toggle("scrollbar-off");
     }
   };
 

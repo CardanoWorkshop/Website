@@ -5,7 +5,7 @@ import styled from "styled-components";
 import Fade from "react-reveal/Fade";
 
 // Components
-import Nav from "./Nav/Nav";
+import Nav from "../Nav/Nav";
 import Carousel from "./Carousel/Carousel";
 import Projects from "./Projects/Projects";
 import Socials from "./Socials/Socials";

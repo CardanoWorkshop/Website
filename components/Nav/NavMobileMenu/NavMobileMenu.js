@@ -2,7 +2,7 @@
 import styled from "styled-components";
 
 // Overlay
-import Overlay from "../../../Overlay/Overlay";
+import Overlay from "../../Overlay/Overlay";
 
 // Material UI
 import Button from "@mui/material/Button";
@@ -31,29 +31,31 @@ const NavMobileMenu = () => {
       >
         <ul>
           <li>
-            <Link href="/">
+            <Link href="/about-us">
               <a>ABOUT US</a>
             </Link>
           </li>
           <li>
-            <Link href="/">
+            <Link href="/our-mission">
               <a>OUR MISSION</a>
             </Link>
           </li>
           <li>
-            <Link href="/">
-              <a>RESOURCES</a>
+            <Link href="/whitepaper">
+              <a>WHITEPAPER</a>
             </Link>
           </li>
           <li>
-            <Link href="/">
-              <a>NEWS</a>
+            <Link href="/roadmap">
+              <a>ROADMAP</a>
             </Link>
           </li>
           <li>
-            <a href="https://cardano.org/" target="_blank" rel="noreferrer">
-              <Button variant="contained">Cardano.org</Button>
-            </a>
+            <Link href="/token-ico">
+              <a>
+                <Button variant="contained">Token ICO</Button>
+              </a>
+            </Link>
           </li>
         </ul>
       </Wrapper>
@@ -70,7 +72,7 @@ const Wrapper = styled(motion.div)`
   z-index: 100;
   overflow: hidden;
   width: 100%;
-  height: calc(100vh - 80px);
+  height: 100vh;
   background-color: #000;
 
   ul {

@@ -29,31 +29,31 @@ const Carousel = () => {
     <Wrapper {...settings}>
       <div className="slide-1">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
-          nulla!
+          Cardano Workshop, empowering innovation on the Cardano blockchain.
         </p>
       </div>
       <div className="slide-2">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos,
-          culpa?
+          Our initial coin offering (ICO) is now live, click here to find out
+          more.
         </p>
       </div>
       <div className="slide-3">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, amet!
+          Weekly developer updates on social media, join the Cardano Workshop
+          community today.
         </p>
       </div>
       <div className="slide-4">
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde,
-          tempora.
+          All of our code is open-source, our dedication to transparency and
+          security sets us apart.
         </p>
       </div>
       <div className="slide-5">
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat,
-          quia.
+          Cardano Workshop is fully owned and governed by holders of the $WORK
+          Token.
         </p>
       </div>
     </Wrapper>
@@ -65,19 +65,21 @@ export default Carousel;
 const Wrapper = styled(Slider)`
   width: 100%;
 
+  padding: 7.5vh 0;
+
   //
-  height: 500px;
+  //  height: 500px;
   @media only screen and (max-width: 1500px) {
-    height: 450px;
+    //  height: 450px;
   }
   @media only screen and (max-width: 1150px) {
-    height: 375px;
+    //  height: 375px;
   }
   @media only screen and (max-width: 500px) {
-    height: 350px;
+    //   height: 350px;
   }
   @media only screen and (max-width: 500px) {
-    height: 325px;
+    //  height: 325px;
   }
   //
 
@@ -90,9 +92,10 @@ const Wrapper = styled(Slider)`
 
     p {
       padding: 20px;
+
       //
-      width: 850px;
-      @media only screen and (max-width: 850px) {
+      width: 950px;
+      @media only screen and (max-width: 950px) {
         width: 100%;
       }
       //
@@ -104,7 +107,6 @@ const Wrapper = styled(Slider)`
       @media only screen and (max-width: 1500px) {
         font-size: 3.4rem;
       }
-
       @media only screen and (max-width: 1150px) {
         font-size: 2.9rem;
       }
@@ -121,7 +123,7 @@ const Wrapper = styled(Slider)`
   .slick-dots {
     color: #fff;
     position: absolute;
-    bottom: 40px;
+    bottom: 0px;
 
     .slick-active {
       color: #cf0404;

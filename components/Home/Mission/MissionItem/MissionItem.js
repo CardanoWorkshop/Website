@@ -13,7 +13,7 @@ const MissionItem = (props) => {
 export default MissionItem;
 
 const Wrapper = styled.div`
-  height: 125px;
+  height: 100%;
 
   //
   width: 260px;
