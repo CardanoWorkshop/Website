@@ -1,6 +1,9 @@
 // React
 import { Fragment } from "react";
 
+// Styled Components
+import styled from "styled-components";
+
 // Next
 import Head from "next/head";
 
@@ -15,9 +18,24 @@ const index = () => {
         <link rel="icon" href="./logo/transparent-logo.png" />
       </Head>
       <Nav />
-      <h1>Token ICO</h1>
+      <Wrapper>
+        <h1>Coming soon!</h1>
+      </Wrapper>
     </Fragment>
   );
 };
 
 export default index;
+
+const Wrapper = styled.div`
+  width: 100%;
+  padding-top: 25vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-size: 3rem;
+  }
+`;
