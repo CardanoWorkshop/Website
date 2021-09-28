@@ -73,7 +73,7 @@ const Wrapper = styled(motion.div)`
   overflow: hidden;
   width: 100%;
   height: 100vh;
-  background-color: #000;
+  background-color: #1c0000;
 
   ul {
     display: flex;
