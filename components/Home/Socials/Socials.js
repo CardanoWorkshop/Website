@@ -3,11 +3,11 @@ import styled from "styled-components";
 
 // Material UI
 import TwitterIcon from "@mui/icons-material/Twitter";
+import RedditIcon from "@mui/icons-material/Reddit";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 // Components
 import SocialsIcon from "./SocialsIcon/SocialsIcon";
-import YouTubeIcon from "@mui/icons-material/YouTube";
-import GitHubIcon from "@mui/icons-material/GitHub";
 
 const Socials = () => {
   return (
@@ -26,9 +26,9 @@ const Socials = () => {
           link={"https://twitter.com/CardanoWorkshop"}
         />
         <SocialsIcon
-          text={"Youtube"}
-          icon={<YouTubeIcon className="icon" />}
-          link={"https://www.youtube.com/channel/UCSiO9JrFJfUtlmwu6rq7rIA"}
+          text={"Reddit"}
+          icon={<RedditIcon className="icon" />}
+          link={"https://www.reddit.com/r/CardanoWorkshop/"}
         />
         <SocialsIcon
           text={"Github"}
@@ -63,8 +63,8 @@ const Wrapper = styled.div`
     align-items: center;
 
     //
-    width: 750px;
-    @media only screen and (max-width: 750px) {
+    width: 800px;
+    @media only screen and (max-width: 825px) {
       width: 100%;
     }
     //

@@ -6,7 +6,11 @@ const SocialsIcon = (props) => {
     <Wrapper>
       <a href={props.link} target="_blank" rel="noreferrer">
         {typeof props.icon === "string" ? (
-          <img src={props.icon} className="icon" />
+          <img
+            src={props.icon}
+            className="icon"
+            style={{ paddingTop: "7.5px" }}
+          />
         ) : (
           props.icon
         )}

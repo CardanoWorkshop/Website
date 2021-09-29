@@ -5,18 +5,20 @@ import styled from "styled-components";
 import Fade from "react-reveal/Fade";
 
 // Components
-import Nav from "./Nav/Nav";
+import Nav from "../Nav/Nav";
 import Carousel from "./Carousel/Carousel";
 import Projects from "./Projects/Projects";
 import Socials from "./Socials/Socials";
 import Mission from "./Mission/Mission";
 import Footer from "./Footer/Footer";
 
+import Background from "./Background/Background";
 import SectionBreak from "./SectionBreak/SectionBreak";
 
 const Home = () => {
   return (
     <Wrapper>
+      <Background />
       <Nav />
       <Carousel />
       <SectionBreak />

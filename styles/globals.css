@@ -14,6 +14,7 @@ body {
   max-height: max-content;
 
   background-color: #1c0000;
+  color: #fff;
 }
 
 /* Font sizes */
@@ -31,6 +32,16 @@ body {
   html {
     font-size: 14px;
   }
+}
+
+/* Styles to add depending on if user has a scrollbar */
+.scrollbar-on {
+  overflow: hidden;
+  padding-right: 17px;
+}
+
+.scrollbar-off {
+  overflow: hidden;
 }
 
 /* Styles for portal */

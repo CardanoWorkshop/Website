@@ -2,6 +2,7 @@
 import styled from "styled-components";
 
 // Material UI
+import PublicIcon from "@mui/icons-material/Public";
 import SecurityIcon from "@mui/icons-material/Security";
 import NoteIcon from "@mui/icons-material/Note";
 import AllInclusiveIcon from "@mui/icons-material/AllInclusive";
@@ -14,13 +15,17 @@ import MissionItem from "./MissionItem/MissionItem";
 const Mission = () => {
   return (
     <Wrapper>
-      <p className="header">Our missions</p>
+      <MissionItem
+        text={"Redefining Cardano Governance"}
+        icon={<PublicIcon className="icon" />}
+      />
+
       <MissionItem
         text={"Driving adoption of Cardano"}
         icon={<SecurityIcon className="icon" />}
       />
       <MissionItem
-        text={"Shaping legislation and commercial standards"}
+        text={"Truly decentralized applications"}
         icon={<NoteIcon className="icon" />}
       />
       <MissionItem
@@ -28,11 +33,11 @@ const Mission = () => {
         icon={<AllInclusiveIcon className="icon" />}
       />
       <MissionItem
-        text={"Ensuring stakeholder accountability"}
+        text={"Open source development process"}
         icon={<ExtensionIcon className="icon" />}
       />
       <MissionItem
-        text={"Facilitating partnerships"}
+        text={"Empowering innovation"}
         icon={<PanToolIcon className="icon" />}
       />
     </Wrapper>
@@ -65,8 +70,18 @@ const Wrapper = styled.div`
   //
 
   .header {
-    font-size: 30px;
     align-self: center;
+
+    height: 100%;
+
+    .text {
+      font-size: 30px;
+    }
+
+    .icon {
+      font-size: 50px;
+      fill: #cf0404;
+    }
 
     @media only screen and (max-width: 610px) {
       margin-bottom: 20px;

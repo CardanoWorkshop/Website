@@ -7,34 +7,26 @@ import Project from "./Project/Project";
 const Projects = () => {
   return (
     <Wrapper>
-       <Project
-        image={
-          "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fjessedamiani%2Ffiles%2F2017%2F12%2FScreen-Shot-2017-12-16-at-4.03.02-PM-1200x776.jpg"
-        }
-        title={"MARKETPLACE APP"}
-        main={
-          "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque nisi, quos eum nam perferendis hic."
-        }
+      <Project
+        image={"./logo/filled-logo.png"}
+        title={"NFT Marketplace"}
+        main={"[Q4 2021]"}
         link={"https://cardano.org/"}
       />
-        <Project
+      <Project
         image={
-          "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fjessedamiani%2Ffiles%2F2017%2F12%2FScreen-Shot-2017-12-16-at-4.03.02-PM-1200x776.jpg"
+          "./logo/filled-logo.png"
         }
-        title={"MARKETPLACE APP"}
-        main={
-          "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque nisi, quos eum nam perferendis hic."
-        }
+        title={"MINT NFT"}
+        main={"[Q4 2021]"}
         link={"https://cardano.org/"}
       />
-        <Project
+      <Project
         image={
-          "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fjessedamiani%2Ffiles%2F2017%2F12%2FScreen-Shot-2017-12-16-at-4.03.02-PM-1200x776.jpg"
+          "./logo/filled-logo.png"
         }
-        title={"MARKETPLACE APP"}
-        main={
-          "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque nisi, quos eum nam perferendis hic."
-        }
+        title={"Workswap DEX"}
+        main={"[Q1 2021]"}
         link={"https://cardano.org/"}
       />
     </Wrapper>
